@@ -11,26 +11,100 @@
 <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="row">
+  <div class="row2">
 
-    <video autoplay loop muted plays-inline class="back">
-      <source src="./img/video.mp4" type="video/mp4">
-    </video>
+   
 
 
-    <nav><img src="./img/logo.jpg" class="logo">
+    <!-- <nav><img src="./img/logo.jpg" class="logo">
     <ul>
       <li><a href="">HOME</a></li>
-      <li><a href="">SERVICES</a>
+      <li><a href="">SERVICES</a> 
       </li>
       <li><a href="">ABOUT US</a> </li>
       <li><a href="">WEDDING VENUES</a> </li>
       <li><a href="">CONTACT</a></li>
-    </ul></nav>
+    </ul></nav> -->
+
+    <nav class=" text-2xl font-bold z-50  fixed top-0 w-full  bg-opacity-10  bg-black   ">
+      <div class="max-w-screen-xl flex items-center justify-between mx-auto">
+          <div class="flex ">
+              <img src="./img/logo.jpg" class="h-20" alt="Flowbite Logo">
+              <!-- <span class="self-center text-pink-800 text-6xl ">Harsham </span> -->
+          </div>
+          <div class="hidden w-full md:block md:w-auto  " id="navbar-dropdown">
+              <ul class="flex flex-col p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0  ">
+                  <li>
+                      <a href="./index.html" class="block py-2 px-3 text-red-400 hover:text-white  rounded md:bg-transparent  md:p-0 mt-3">Home</a>
+                  </li>
+                  <li class="relative group ">
+                      <button class="flex items-center justify-between w-full py-2  text-white hover:text-black ">Services
+                          <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"></path>
+                          </svg>
+                      </button>
+                      <!-- Dropdown menu -->
+                      <div class="absolute left-0 z-10 hidden w-44 pt-2 group-hover:block">
+                          <div class=" divide-y divide-gray-100 rounded-lg shadow f ">
+                              <ul class="py-2 text-xl text-white">
+                                  <li>
+                                      <a href="" class="block px-4 py-2  hover:text-black  ">Wedding Ceremony</a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="block px-4 py-2   hover:text-black">Corporate Events</a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="block px-4 py-2   hover:text-black  ">Venue Management</a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="block px-4 py-2   hover:text-black  ">Party Planning</a>
+                                  </li>
+                                  <li>
+                                      <a href="#" class="block px-4 py-2   hover:text-black  ">Non-Profit Events </a>
+                                  </li>
+                              </ul>
+                              <!-- <div class="py-1">
+                                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:text-blue-700 ">Sign out</a>
+                              </div> -->
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <a href="#" class="block py-2 px-3 text-white md:hover:text-black md:p-0 mt-3">Portfolio</a>
+                  </li>
+                  <li>
+                      <a href="#" class="block py-2 px-3 text-white md:hover:text-black md:p-0 mt-3">Clients</a>
+                  </li>
+                  <li>
+                      <a href="#" class="block text-white  md:hover:text-black md:p-0 mt-3 mr-56">Team</a>
+                  </li>
+                  <!-- <li>
+                      <a href="#signin-modal" class="block text-white-900 md:hover:text-black  md:p-0 mt-3 mr-10 ">Sign In</a>
+                  </li> -->
+                
+<button class="cursor-pointer transition-all bg-blue-500 text-white px-6 py-2 rounded-lg
+border-blue-600
+border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
+active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
+  Sign in
+</button>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  
+  <div class="row">
+    <video autoplay loop muted plays-inline class="back">
+      <source src="./img/video.mp4" type="video/mp4">
+    </video>
+  
+    
+
     
     <div class="content">
       <h3>Partner with Melodia <br>  Event Management <br> in Kerala</h3>
       <!-- <button class="boton-elegante">Lets Talk</button> -->
+
       
       
 <button
@@ -51,6 +125,7 @@
     >Explore!</span
   >
 </button>
+</div>
 
   </div>
   </div>
@@ -216,16 +291,39 @@
           </div>
         </div>
       </section>
-
-
     </section>
 
+    <div class="container-fluid flex  justify-around bg-[url('https://arjunkarthaphotography.com/wp-content/uploads/2016/11/online-wedding-photography-course-cover-1.jpg')] bg-cover bg-fixed bg-center">
 
-
-
-
-
-
-
+      <div class="w-1/3	h-96 ml-20 mt-10 mb-10">
+        <h1 class="font-bold text-white text-4xl	mt-12">Kerala’s Wedding Planners Crafting Grand Weddings</h1>
+        <p class="text-white	mt-6">Jaspira Wedding Planners in Kochi, Kerala will curate and organize the wedding of your dreams. Make your celebration grand and ever-lasting by making us in charge of your big day. Leave your worries aside and let the professional wedding organizers in Kerala do the job. Trust us to make your wedding unforgettable for you and your loved ones.
+        </p>
+      </div>
+      <div class="w-1/3 h-96  mt-10 mb-10 mr-20">
+        <div class="relative mb-4 mt-16">
+          <!-- <label for="email" class="leading-7 text-sm text-gray-600">Email</label> -->
+          <input type="text" id="text" name="Name" placeholder="Enter your Fullname" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <!-- <label for="email" class="leading-7 text-sm text-gray-600">Email</label> -->
+          <input type="email" id="email" name="email" placeholder="Enter your E-mail" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <!-- <label for="text" class="leading-7 text-sm text-gray-600">Email</label> -->
+          <input type="text" id="text" name="phone" placeholder="Enter Your Ph:No" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <!-- <label for="text" class="leading-7 text-sm text-gray-600">Email</label> -->
+          <textarea id="text" name="phone" placeholder="Message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
+        </div>
+        <button class=" text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Sent</button>
+        
+    
+      </div>
+    
+    
+    </div>
+    
 </body>
-</html>
+</html> 
