@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="booking.css">
+    <style>
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        }
+    </style>
+</head>
+<body class="bg-blue-100">
+
+    <!-- Booking Form Section -->
+    <section class="max-w-4xl mx-auto p-6 bg-blue shadow-md rounded-lg mt-10">
+        <h2 class="text-2xl font-bold text-white  text-center mb-6">Book Your Event</h2>
+        
+        <form>
+            <!-- Name -->
+            <div class="mb-4">
+                <label class="block text-white  text-sm font-bold mb-2" for="name">Name</label>
+                <input class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500" type="text" id="name" placeholder="Your Name">
+            </div>
+
+            <!-- Email -->
+            <div class="mb-4">
+                <label class="block text-white  text-sm font-bold mb-2" for="email">Email</label>
+                <input class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500" type="email" id="email" placeholder="Your Email">
+            </div>
+            
+        
+
+            <!-- Event Date -->
+            <div class="mb-4">
+                <label class="block text-white  text-sm font-bold mb-2" for="event-date">Event Date</label>
+                <input class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500" type="date" id="event-date">
+            </div>
+
+            <!-- Event Type -->
+            <div class="mb-4">
+                <label class="block text-white  text-sm font-bold mb-2" for="event-type">Event Type</label>
+                <select class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500" id="event-type">
+                    <option>Birthday Party</option>
+                    <option>Photography Session</option>
+                    <option>Wedding</option>
+                    <option>Corporate Event</option>
+                    <option>Workshop/Seminar</option>
+                </select>
+            </div>
+
+             <!-- Additional Notes -->
+             <div class="mb-6">
+                <label class="block text-white  text-sm font-bold mb-2" for="notes">Additional Notes</label>
+                <textarea class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:border-blue-500" id="notes" rows="4" placeholder="Any specific requests or details?"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="flex justify-center">
+                <button class="px-6 py-2 text-blue bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Submit Booking</button>
+            </div>
+        </form>
+    </section>
+    
+
+</body>
+</html>

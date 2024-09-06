@@ -1,0 +1,16 @@
+#zebeel{
+    width: 15%;
+    height: 15%;
+}
+.hhh{
+    margin-left: -120px;
+    /* margin-top: 100px; */
+}
+.jjj{
+    margin-top: -89px;
+}
+footer{
+    background-image: url(./photos/Vallilan\ verkkokauppa\ |\ Suomalaista\ suunnittelua\ vuodesta\ 1935.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
